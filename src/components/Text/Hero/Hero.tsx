@@ -20,7 +20,6 @@ export const Hero = () => {
        <div className={styles.heroImage}>
        <img src={cofe} />
         </div>
-{/* Right Side: Coffee Image */}
       <div className={styles.iconRow}>
         <img src={coffeeIcon} />
         <img src={Icon} />
