@@ -35,3 +35,8 @@ nav {
     align-items: center;
     cursor: pointer;
 }
+.brandSub {
+  font-size: 1.2rem;
+  color: #8c6d53;
+  margin-top: -10px; /* Pulls it right under FLAVORED */
+}

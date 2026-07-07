@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: center;    /* Keeps text and image centered vertically */
+  justify-content: space-between; /* Pushes text to left, image to right */
+  gap: 40px;
+}
+
+.textSide {
+  flex: 1; /* Text takes up 50% width */
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  gap: 40px;
+  background-color: #f7f3f0;
+}
+
+.heroImage {
+  flex: 1; /* Image takes up 50% width */
+  display: flex;
+  justify-content: flex-end; /* Pushes the image to the far right */
+}
+
+.heroImage img {
+  width: 400px; /* Adjust this size to match your reference */
+  height: auto;
+}
+.categories {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.content h1 {
+  font-size: 4rem;
+  color: var(--primary-brown);
+}
+
+.badge {
+  padding: 12px 25px;
+  border-radius: 30px; /* Essential for that rounded "app" look */
+  background: white;
+  border: 1px solid #d9c3b0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.badge:hover {
+  background: var(--primary-brown);
+  color: white;
+}
+.learnMore {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #8c6d53; /* Match your brown theme */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

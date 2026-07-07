@@ -10,7 +10,8 @@ export const Navbar =() => {
         {/*<div className={styles.content}>*/}
         <ContentContainer className={styles.content}>
             <Text variant={'h2'} style={{margin:0}}>Flavored</Text>
-            <div className={styles.link}>
+            <p className={styles.brandSub}>Wake up to something special.</p>
+            <div className={styles.links}>
                   <a href='/#' className={styles.link}>Home</a>
                   <a href='/#' className={styles.link}>Coffee Menu</a>
                   <a href='/#' className={styles.link}>About Us</a>
