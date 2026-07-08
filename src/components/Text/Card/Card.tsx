@@ -26,10 +26,10 @@ export const Cards = () => {
           ))}
         </div>
         <div className={styles.infoBlock}>
-          <Text variant="h2">Lorem Ipsum is simply dummy text of</Text>
+          <Text variant="h2">Lorem Ipsum is<br/> simply dummy text of</Text>
           <Text variant="p">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry's standard dummy text ever since the 1500's.
+            Lorem Ipsum is simply dummy text of the printing and<br/> typesetting
+            industry's<br/> standard dummy text ever since the 1500's.
           </Text>
           <button className={styles.learnMore}>Learn More</button>
         </div>

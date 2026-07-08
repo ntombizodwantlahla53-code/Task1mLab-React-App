@@ -1,13 +1,15 @@
-import React from 'react'
+
 import { Text } from '../Text'
 import styles from './Cardthree.module.css'
 import { ContentContainer } from '../ContentContainer'
 import image from '../../../assets/Americano.jpg'
-
+import { IoIosArrowBack } from "react-icons/io";
+import { PiAppleLogoFill } from "react-icons/pi";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
     const menuData = [
-  { id: 1, name: 'Americano', price: '$2.50', image: '/Americano.jpg', imag: '/cappucino.jpg'},
-  { id: 2, name: 'Cappuccino', price: '$2.50', image: '/cappucino.jpg'}
+  { id: 1, name: 'Americano', price: '100%', image: '/Americano.jpg', Image: '/cappucino.jpg'},
+  { id: 2, name: 'Cappuccino',  image: '/cappucino.jpg'}
 
 ]
 
@@ -19,6 +21,7 @@ export const Cardthree = () => {
           {menuData.map((item) => (
             <div key={item.id} className={styles.card}>
               <div className={styles.name}>
+                <IoIosArrowBack />
               <span>Coffee</span></div>
               <div><button className={styles.viewMenu}>View Menu</button></div>
               <img src={image} className={styles.coffeeI} />
@@ -37,7 +40,8 @@ export const Cardthree = () => {
             of  type and scrembled it to make a type specimen book.
           </Text>
           <div className={styles.iconRow}>
-            
+            <PiAppleLogoFill/>
+            <IoLogoGooglePlaystore/>
             </div>
             
 </div>

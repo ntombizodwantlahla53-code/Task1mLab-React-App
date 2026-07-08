@@ -17,7 +17,7 @@
 }
 
 .card {
-  background: rgb(19, 35, 156);
+  background: rgb(199, 193, 193);
   padding: 20px;
   border-radius: 20px; 
   text-align: start;
@@ -35,25 +35,13 @@
  
 }
 
-.infoText {padding: 30px;
-  background-color: #fff;
-  border-radius: 20px;
+.infoText {padding: 100px;
   text-align: left;
+  color: maroon;
   
   
 }
 
-.learnMore {
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #8c6d53; 
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-
-
-}
 .card img{
   width:90px;
   height: 90px;
@@ -65,10 +53,13 @@
 .viewMenu {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #0c0c0c; 
+  background-color: maroon; 
   color: rgb(236, 232, 232);
   border: none;
   border-radius: 20px;
   cursor: pointer;
 
+}
+.iconRow{
+  color: black;
 }

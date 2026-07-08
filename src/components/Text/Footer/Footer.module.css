@@ -1,0 +1,32 @@
+.content{
+display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.flav{
+    margin-top: 50px;
+text-align: start;
+color: white;
+
+
+}
+
+.left span{
+    
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+  padding: 50px 0;
+
+}
+.infoFooter{
+    color: maroon;
+}
+

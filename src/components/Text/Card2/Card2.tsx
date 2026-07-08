@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Text } from '../Text'
 import styles from './Card2.module.css'
 import { ContentContainer } from '../ContentContainer'

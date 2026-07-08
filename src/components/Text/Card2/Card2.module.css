@@ -8,18 +8,18 @@
   padding: 10px;
   border-radius: 24px; 
   text-align:start;
- margin: 0 auto;
+margin: 0 auto;
 }
 .txt{
+  color: maroon;
   width: 100%;
   height: 70%;
   display:flex;
   padding: 20px;
-background-color: rgb(218, 216, 219);
-  border-radius: 24px;
 align-items: center;
 justify-content: center;
 position: relative
+
 }
 
 
@@ -39,7 +39,7 @@ position: relative
   height: 30px;
   width:100px;
   border-radius: 20px;
-  background: pink;
+  background: rgba(215, 110, 110, 0.836);
   color: blue;
   margin-top: 30px;
   margin-bottom: 20px;
