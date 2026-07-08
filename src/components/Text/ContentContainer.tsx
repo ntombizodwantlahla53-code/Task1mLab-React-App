@@ -2,12 +2,12 @@ import React from 'react'
 
 type Props = {
     children: React.ReactNode
-    className?: string
+    className?:string
 }
 
-export const ContentContainer: React.FC<Props> = ({ children, className }) => {
+export const ContentContainer: React.FC<Props> =  ({children, className}) =>{
   return (
-    <div className={className} style={{maxWidth: 1200, padding: 10, }}>
+    <div className={className}style={{maxWidth: 1200,  backgroundColor: 'rgb(184, 167, 146)', padding:10,}}>
         {children}
     </div>
   )

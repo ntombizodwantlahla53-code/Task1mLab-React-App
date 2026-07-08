@@ -36,6 +36,6 @@ export const Cards = () => {
 
         
       </ContentContainer>
-    </section>
+</section>
   );
 }

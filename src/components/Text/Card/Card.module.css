@@ -1,21 +1,22 @@
-.content {
-  display: flex; 
-  width:100% ;
-  height: 70%;
-  border-radius: 24px;
-  flex-direction: column;
-  background-color: black;
-  position: relative;
+.cards{
+  padding: 10px;
+  border-radius: 24px; 
+  text-align:start;
+  margin: 0 auto;
 }
-.content {
+.content{
+
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 40px;
+  justify-content: space-between;
+  margin: auto;
+  gap: 30px;
   padding: 50px 0;
-}
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
 
 .card {
-  background: rgb(19, 35, 156);
+  background: rgb(150, 150, 153);
   padding: 20px;
   border-radius: 20px; 
   text-align: start;
@@ -53,6 +54,6 @@
   width:90px;
   height:90px;
   border-radius: 50px;
-  top: 1px;
+  
 
 }

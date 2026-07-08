@@ -3,8 +3,7 @@ import { Text } from '../Text'
 import styles from './Cardthree.module.css'
 import { ContentContainer } from '../ContentContainer'
 import image from '../../../assets/Americano.jpg'
-import { FaApple } from "react-icons/fa";
-import { BiLogoPlayStore } from "react-icons/bi";
+
 
     const menuData = [
   { id: 1, name: 'Americano', price: '$2.50', image: '/Americano.jpg', imag: '/cappucino.jpg'},
@@ -29,7 +28,7 @@ export const Cardthree = () => {
             </div>
           ))}
         </div>
-        <div className={styles.infoBlock}>
+        <div className={styles.infoText}>
           <Text variant="h2">App is Available</Text>
           <Text variant="p">
             Lorem is a simple dummy text of the 
@@ -38,13 +37,10 @@ export const Cardthree = () => {
             of  type and scrembled it to make a type specimen book.
           </Text>
           <div className={styles.iconRow}>
-            <div className='icons'>
-            <FaApple/>
-            <BiLogoPlayStore/></div>
-
+            
             </div>
-            </div>
-
+            
+</div>
         
       </ContentContainer>
     </section>

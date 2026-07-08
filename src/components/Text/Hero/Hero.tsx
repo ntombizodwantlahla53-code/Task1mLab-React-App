@@ -10,8 +10,8 @@ import cofe from '../../../assets/heroo.jpg'
 
 export const Hero = () => {
   return (
-    <section className={styles.hero}>
-      <ContentContainer>
+    <section className={styles.Hero}>
+      <ContentContainer className={styles.content}>
         <div className={styles.info}>
           <div className={styles.left}>
           
@@ -34,7 +34,8 @@ export const Hero = () => {
           </div>
           
         
-        </ContentContainer>
-   </section>
+       </ContentContainer>
+      </section>
+
   )
 }

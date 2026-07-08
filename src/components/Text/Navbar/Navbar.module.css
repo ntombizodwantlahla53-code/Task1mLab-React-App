@@ -1,14 +1,16 @@
-nav {
+.nav {
     position: fixed; 
     top: 0;
     height:60px;
     width:100vw ;
-    background-color: rgb(147, 146, 146) ;
+    background-color: rgb(241, 234, 234) ;
 }
-.content {
-    margin: auto;
+.content{
     display: flex;
-    justify-content: space-between;
+  margin: auto;
+  margin: auto;
+  justify-content: space-between;
+ 
 }
 .links {
     display: flex;
@@ -24,20 +26,10 @@ nav {
 .link:hover {
     color:blue;
 
-}
-.profile-icon {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+
 }
 .brandSub {
   font-size: 1.2rem;
   color: #8c6d53;
-  margin-top: -10px; /* Pulls it right under FLAVORED */
+  margin-top: 20px; 
 }
-

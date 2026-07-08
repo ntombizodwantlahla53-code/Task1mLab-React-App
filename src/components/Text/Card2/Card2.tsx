@@ -8,7 +8,7 @@ export const Card2 = () => {
   return (
 
     <section className={styles.cards2}>
-      <ContentContainer>
+      <ContentContainer className={styles.content}>
         <div className={styles.txt}>
           <div className={styles.left}>
           
