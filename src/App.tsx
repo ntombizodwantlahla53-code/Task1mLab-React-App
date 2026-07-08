@@ -7,20 +7,24 @@ import {Text} from './components/Text/Text'
 import { Navbar } from './components/Text/Navbar/Navbar'
 import { Hero } from './components/Text/Hero/Hero'
 import { Cards } from './components/Text/Card/Card'
+import { Card2} from './components/Text/Card2/Card2'
+import { Cardthree} from './components/Text/Cardthree/Cardthree'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div style={{ paddingTop: '80px' }}> {/* Adds space below the fixed navbar */}
+    <div style={{ paddingTop: '90px' }}>
       <Navbar/>
       <Hero />
       <Cards />
-      <Text variant= 'h1'>Coffee</Text>
-      <Text variant= 'h2'> Coffee</Text>
+      <Card2/>
+      <Cardthree/>
+      <Text variant= 'h1'></Text>
+      <Text variant= 'h2'> </Text>
       <Text variant= 'p'> </Text>
       <Text variant= 'span'> </Text>
-    </div>
+      </div>
   )
 }
 

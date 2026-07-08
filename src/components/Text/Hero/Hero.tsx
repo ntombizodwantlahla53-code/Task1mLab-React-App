@@ -12,29 +12,11 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <ContentContainer>
-<<<<<<< HEAD
-       <Text variant="h1">Coffee</Text>
-         <Text variant="h1">The Best For You</Text>
-        <Text>
-         <button className={styles.learnMore}>Learn More</button></Text>
-       <div className={styles.categories}>
-       </div>
-       <div className={styles.heroImage}>
-       <img src={cofe} />
-        </div>
-      <div className={styles.iconRow}>
-        <img src={coffeeIcon} />
-        <img src={Icon} />
-        <img src={thirdIcon} />
-        <img src={anotherIcon} />
-            <img src="/../../../assets/heroo.jpg"  />
-            <img src="../../../assets/icons8-coffee-50-3.png" />
-            <img src="../../../assets/icons8-coffee-50-4.png" />
-            <img src="../../../assets/icons8-coffee-50.png"/>
-=======
         <div className={styles.info}>
-          <div>
-       <Text variant="h1">Coffee</Text> 
+          <div className={styles.left}>
+          
+       <span>Coffee</span>
+       <span>The Best For You</span> 
       
       <Text>
       <button className={styles.viewMenu}>View Menu</button></Text>
@@ -43,16 +25,14 @@ export const Hero = () => {
             <img src={Icon} />
             <img src={thirdIcon} />
             <img src={anotherIcon} />
->>>>>>> fb3f792190ec0fb03de38f6a8a6d82dbc482f518
           </div>
-|</div>
-         <img src={cofe} className={styles.heroImage}/>
-         
-          <div className={styles.left}>
-         
+          </div>
+|
+          <div className={styles.right}>
+         <img src={cofe} />
+          </div>
           </div>
           
-        </div>  
         
         </ContentContainer>
    </section>

@@ -17,8 +17,9 @@ export const Cards = () => {
         <div className={styles.grid}>
           {menuData.map((item) => (
             <div key={item.id} className={styles.card}>
-              <img src={item.image} className={styles.coffeeImage} />
-            <img src={image} />
+              <img src={image} className={styles.coffeeImage} />
+              <div className={styles.name}>
+              <span>"h2"</span></div>
               <Text variant="h2">{item.name}</Text>
               <Text variant="p">{item.price}</Text>
             </div>
@@ -32,6 +33,8 @@ export const Cards = () => {
           </Text>
           <button className={styles.learnMore}>Learn More</button>
         </div>
+
+        
       </ContentContainer>
     </section>
   );
