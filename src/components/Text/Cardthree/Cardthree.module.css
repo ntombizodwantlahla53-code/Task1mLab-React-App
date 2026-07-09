@@ -17,27 +17,35 @@
 }
 
 .card {
+  background: rgb(167, 155, 155);
+  padding: 10px;
+  border-radius: 20px; 
+  text-align: start;
+  justify-content: center;
+  width: 250px;
+  height: 500px;
+  
+}
+.card22{
   background: rgb(199, 193, 193);
   padding: 20px;
   border-radius: 20px; 
   text-align: start;
   justify-content: center;
-  width: 230px;
-  height: 500px;
-  
-
 }
+
 .grid {
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
   gap: 10px;
   padding: 10px 0;
- 
+
 }
 
 .infoText {padding: 100px;
   text-align: left;
-  color: maroon;
+  color: rgb(66, 7, 7);
   
   
 }
@@ -53,7 +61,7 @@
 .viewMenu {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: maroon; 
+  background-color:rgb(66, 7, 7) ; 
   color: rgb(236, 232, 232);
   border: none;
   border-radius: 20px;
@@ -61,5 +69,16 @@
 
 }
 .iconRow{
+  display: flex;
+ justify-content: center;
+
   color: black;
 }
+.cardb {
+  background: rgb(121, 82, 82);
+  padding: 10px;
+  border-radius: 20px; 
+  text-align: start;
+  justify-content: center;
+  width: 250px;
+  height: 500px;}

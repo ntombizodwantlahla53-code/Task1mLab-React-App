@@ -1,8 +1,8 @@
-
 import { Text } from '../Text'
 import styles from './Navbar.module.css'
 import { ContentContainer } from '../ContentContainer'
-import { CgCoffee } from "react-icons/cg";
+import { LuCoffee } from "react-icons/lu";
+
 
 
 export const Navbar =() => {
@@ -14,7 +14,7 @@ export const Navbar =() => {
         
             
             <div className={styles.heading}>
-          <Text variant="h2">Flavored<CgCoffee/> </Text>
+          <Text variant="h2">Flavored   <LuCoffee/></Text>
           <Text variant="p">Waking up to something Special
             
         </Text>

@@ -2,7 +2,7 @@
 import { Text } from '../Text'
 import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
-import { CgCoffee } from "react-icons/cg";
+import { LuCoffee } from "react-icons/lu";
 
 
 export const Footer = () => {
@@ -14,7 +14,8 @@ export const Footer = () => {
         <div className={styles.name}>
              <div className={styles.flav}>
           <div className={styles.left}>
-       <span>Flavored <CgCoffee/></span>
+       <span>Flavored <LuCoffee/></span>
+       
         
        </div>
 </div>

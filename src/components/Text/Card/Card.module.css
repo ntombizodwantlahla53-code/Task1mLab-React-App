@@ -34,17 +34,17 @@ display: grid;
 
 .infoBlock {padding: 40px;
   text-align: left;
-  color: maroon;
+  color:rgb(66, 7, 7) ;
   
 }
 
 .learnMore {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #8c6d53; 
+  background-color: rgb(66, 7, 7); 
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
 
 

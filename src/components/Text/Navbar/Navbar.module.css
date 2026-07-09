@@ -19,7 +19,7 @@ display: flex;
 }
 .link {
     text-decoration: none;
-    color: brown;
+    color: rgb(66, 7, 7);
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -32,6 +32,6 @@ display: flex;
   text-align: left;
   font-size: 15px;
   font-weight: bold;
-  color: maroon;
+  color: rgb(66, 7, 7);
 
 }
