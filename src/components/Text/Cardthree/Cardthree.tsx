@@ -5,7 +5,9 @@ import image from '../../../assets/Americano.jpg'
 import { SiApple } from "react-icons/si";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
-    const menuData = [
+
+
+const menuData = [
   { id: 1, name: 'Americano', price: '100%', image: '/Americano.jpg', },
   { id: 2, name: 'Americano', price: '100%', image: '/Americano.jpg', },
  

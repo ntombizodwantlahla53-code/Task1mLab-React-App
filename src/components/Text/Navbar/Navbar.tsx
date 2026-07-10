@@ -1,7 +1,8 @@
 import { Text } from '../Text'
 import styles from './Navbar.module.css'
 import { ContentContainer } from '../ContentContainer'
-import { LuCoffee } from "react-icons/lu";
+import icon1 from '../../../assets/icons8-coffee-50-2.png'
+
 
 
 
@@ -14,7 +15,7 @@ export const Navbar =() => {
         
             
             <div className={styles.heading}>
-          <Text variant="h2">Flavored   <LuCoffee/></Text>
+          <Text variant="h2">Flavored   <img src={icon1}/> </Text>
           <Text variant="p">Waking up to something Special
             
         </Text>
@@ -26,11 +27,10 @@ export const Navbar =() => {
                   <a href='/#' className={styles.link}>Coffee Menu</a>
                   <a href='/#' className={styles.link}>About Us</a>
                   <a href='/#' className={styles.link}>Contact Us</a>
-                  <a href='/#' className={styles.link}>Coffee Shop</a>
-                  
-                    
-                  
+                
+                  <button>Coffee shop</button>
              </div>
+             
        </ContentContainer>
             
              {/*</div>*/}

@@ -9,7 +9,8 @@ import{ Cardthree} from './components/Text/Cardthree/Cardthree'
 import { Footer } from './components/Text/Footer/Footer'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
+  
 
   return (
     <div style={{ paddingTop: '80px' }}>

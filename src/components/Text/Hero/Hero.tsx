@@ -2,7 +2,10 @@ import { Text } from '../Text'
 import styles from './Hero.module.css'
 import { ContentContainer } from '../ContentContainer'
 import cofe from '../../../assets/heroo.jpg'
-import { LuCoffee } from "react-icons/lu";
+import icon1 from '../../../assets/icons8-coffee-50-2.png'
+import icon2 from '../../../assets/icons8-coffee-50-3.png'
+import icon3 from '../../../assets/icons8-coffee-50-4.png'
+import icon4 from '../../../assets/icons8-coffee-50.png'
 
 export const Hero = () => {
   return (
@@ -17,7 +20,11 @@ export const Hero = () => {
       <Text>
       <button className={styles.viewMenu}>View Menu</button></Text>
       <div className={styles.iconRow}>
-        <LuCoffee/>
+       <img src={icon1}></img>
+       <img src={icon2}></img>
+       <img src={icon3}></img>
+       <img src={icon4}></img>
+
       </div>
             
         
