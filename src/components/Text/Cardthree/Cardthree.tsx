@@ -1,52 +1,94 @@
 import { Text } from '../Text'
-import styles from './Cardthree.module.css'
 import { ContentContainer } from '../ContentContainer'
-import image from '../../../assets/Americano.jpg'
+import images from './../../../assets/Americano.jpg'
+import {useState} from 'react'
+import  { ItemcardTwo } from '../ItemcardTwo/ItemcardTwo'
+import styles from './../Cardthree/Cardthree.module.css'
+import { FaRegHeart } from "react-icons/fa";
+import latte from "../../../assets/Latte.jpg";
+import { IoArrowBack } from "react-icons/io5";
 import { SiApple } from "react-icons/si";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
-
-
-const menuData = [
-  { id: 1, name: 'Americano', price: '100%', image: '/Americano.jpg', },
-  { id: 2, name: 'Americano', price: '100%', image: '/Americano.jpg', },
- 
-
-]
-
 export const Cardthree = () => {
-  return (
-    <section className={styles.cards}>
-      <ContentContainer className={styles.content}>
-        <div className={styles.grid}>
-          {menuData.map((item) => (
-            <div key={item.id} className={styles.card}>
-              
-              <div className={styles.name}>
-              <span>"h2"</span></div>
-                
-              <Text variant="h2">{item.name}</Text>
-              <Text variant="p">{item.price}</Text>
-           </div>
-           
-))}
+const [zodwa] = useState([
+  { id: 1, name: 'Americano', price: 2.50, image: images, 
+    description: '100% Natural Arabica or Robusta, 30ml cup', imgClass:'cardImg'},
+  
+])
 
-      
-</div>
+   return (
+     <ContentContainer className={styles.content}>
+         <div className={styles.item}>
+         {
+           zodwa && zodwa.length >0 && zodwa.map(product =>{
+             return <ItemcardTwo
+             name={product.name}
+             description={product.description}
+             image={product.image}
+             price={product.price}
+             imgClass={product.imgClass}
+             />
+     
+         }
+       )
+     
+     }
+     
+    <div className={styles.card23}>
 
-        <div className={styles.infoText}>
-          <Text variant="h2">App is Available</Text>
-          <Text variant="p">
+      <img src={latte} alt="Latte Grand" className={styles.image}/>
+      <h2 className={styles.title2}>Latte Grand</h2>
+      <p className={styles.description}>
+         Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry's standard dummy text ever since the 1500's.
             Lorem is a simple dummy text of the 
             printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting
             industry's standard dummy text ever since the 1500's, when an uknown printer took gallery 
             of  type and scrembled it to make a type specimen book.
-          </Text>
-         < SiApple />
-            <IoLogoGooglePlaystore/>
-</div>
+      </p>
 
-      </ContentContainer>
-    </section>
-  );
-}
+      <div className={styles.priceSection}>
+        <div>
+          <span className={styles.label}>Total Price</span>
+          <h3 className={styles.price}>$3.50 <button className={styles.heartButton}>
+          <FaRegHeart />
+        </button><button className={styles.cartButton}>
+        Add To Cart<button className={styles.plusButton}>
+        +
+      </button>
+      </button></h3>
+        
+
+      
+    </div>
+</div>
+      </div>
+<div className={styles.infoText}>
+
+        <Text variant="h2">
+          App is Available
+        </Text>
+
+        <Text variant="p">
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </Text>
+        <div className={styles.storeButtons}>
+          <button className={styles.storeButton}>
+            <SiApple />
+          </button>
+
+          <button className={styles.storeButton}>
+            <IoLogoGooglePlaystore />
+          </button>
+
+        </div>
+        </div>
+     </div>
+     </ContentContainer>
+   )
+ }

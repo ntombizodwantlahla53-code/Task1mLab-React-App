@@ -27,8 +27,8 @@ export const Navbar =() => {
                   <a href='/#' className={styles.link}>Coffee Menu</a>
                   <a href='/#' className={styles.link}>About Us</a>
                   <a href='/#' className={styles.link}>Contact Us</a>
-                
-                  <button>Coffee shop</button>
+                <Text><button className={styles.sNow}>Coffee  Shop</button></Text>
+                 
              </div>
              
        </ContentContainer>
