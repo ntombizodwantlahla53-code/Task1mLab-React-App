@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 type Props = {
     children: React.ReactNode
     className?:string}
@@ -8,7 +9,14 @@ type Props = {
 export const ContentContainer: React.FC<Props>=  ({children, className}) =>{
   return (
 
-    <div className={className} style={{maxWidth: 1200, padding: 10, margin: '0 auto', background: 'blur(10px)',backgroundColor: 'rgba(242, 239, 233,0.7)',borderRadius: 15, fontFamily: 'Arial'}}>
+    <div className={className} 
+    style={{maxWidth: 1200, 
+    padding: 10, 
+    margin: '0 auto', 
+    background: 'blur(10px)',
+    borderRadius: 15, 
+    fontFamily: 'Arial',
+    backgroundColor: 'green' }}>
       {children}</div>
     
   )

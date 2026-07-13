@@ -1,7 +1,7 @@
 .ntombi2{
 border-radius:20px;
     background-color: rgb(234, 229, 235);
-    width: 350px;
+    width: 360px;
     height:700px;
     color: black;
  text-align: center;
@@ -11,7 +11,7 @@ border-radius:20px;
 margin: 0;}
 
 .menuCard {
-  width: 350px;
+  width: 360px;
     height:700px;
   background: rgba(230, 222, 217, 0.55);
   border-radius: 12px;
@@ -35,8 +35,8 @@ margin: 0;}
 }
 
 .card {
-  top: 10px;
-  margin: 10px;
+  top: 17px;
+  margin-top: 30px;
   padding:20px;
   border-radius: 16px;
   text-align: center;
@@ -60,7 +60,7 @@ margin: 0;}
   object-fit: cover;
   border-radius: 50px;
   position: absolute;
-  top:135px;
+  top:190px;
   transform: translateX(-50%);
 }
 
@@ -90,7 +90,7 @@ padding: 5px;
 
 .icon {
   font-size: 16px;
-  color: #ff6a00;
+  color: rgb(66, 7, 7);
 }
 
 .price {
@@ -101,7 +101,8 @@ padding: 5px;
 }
 
 
-.infoText {padding: 1px;
+.infoText {
+  margin-top: 100px;
   text-align: start;
   color:rgb(66, 7, 7);
 flex:1;
@@ -122,25 +123,28 @@ flex:1;
   flex-direction: column;
   position: relative;}
 
-.learnMore{
-height: 20px;
-  width:80px;
+.viewMenu{
+height: 30px;
+  width:150px;
   border-radius: 20px;
   background: rgb(66, 7, 7);
   color: white;
-  margin-top: 10px;
-  text-align: start;
    display: flex; 
-  font-size: 10px;
-  text-align: start;
+  font-size: 20px;
+  margin: 10px;
+  justify-content: center;
+
 }
 .iconR2{
-  text-align: start;
-  margin: 20px;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  gap:20px
 }
 
 
 .card23 {
+  position: relative;
   width: 350px;
   height: 700px;
   background: #ffffff;
@@ -202,8 +206,8 @@ margin: 10px;
 .priceSection {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .label {
@@ -218,24 +222,30 @@ margin: 10px;
 .price {
   color: rgb(66, 7, 7);
   font-size: 28px;
+  border:solid white;
+  margin:10px;
+  border-radius:24px;
+  background-color: white;
   
 }
 
 .heartButton {
+  
   width: 55px;
   height: 55px;
   border: none;
   border-radius: 15px;
-  background: #f4f4f4;
+  background: #d4d4d4;
   font-size: 22px;
   cursor: pointer;
+  margin-right:200px;
 
 }
 
 
 .cartButton {
   
-  height: 40px;
+  height: 45px;
   border: none;
   border-radius: 25px;
   background: rgb(66, 7, 7);
@@ -243,6 +253,9 @@ margin: 10px;
   font-size: 15px;
   cursor: pointer;
   margin-bottom: 10px;
+  position: absolute;
+  margin-left: 250px;
+  width:150px;
  
 }
 
@@ -252,7 +265,7 @@ margin: 10px;
   margin: 0 auto;
   border: none;
   border-radius: 50%;
-  background: rgb(66, 7, 7);
+  background: rgb(100, 37, 37);
   color: white;
   font-size: 28px;
   cursor: pointer;
@@ -261,8 +274,81 @@ margin: 10px;
 .icons4{
   display: flex;
   background-color: rgb(66, 7, 7);
-  border-radius: 24px;
-  border: solid black;
+  border-radius: 20px;
+  border: solid rgb(66, 7, 7);
   margin: 10px;
+  margin-top: -50px;
+gap:50px;
+  height: 40px;
+  font-size: 40px;
+color: #ffffff;
+}
+.iconn{
+  border: solid white;
+width:50px;
+height: 50px;
+background-color: rgb(250, 246, 246);
+border-radius: 20px;
+}
+.imageBtm{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin-left: 236px;
+  margin-top: -115px;
+  border-radius: 70px;
 
+}
+.lastline{
+font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 254, 254);
+  text-align: star
+}
+.lasttext{
+  position: relative;
+  color: rgb(66, 7, 7);
+}
+.line{
+  background-color: black;
+  width: 100%;
+  height:1.5px;
+}
+.Contact{
+  position: absolute;
+  margin-left: 1000px;
+  top: -3px;
+  border-radius: 24px;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(66, 7, 7);
+  color: white;
+}
+.storeButtons{
+ font-size: 30px;
+ display: flex;
+ gap:20px;
+}
+.iconn{
+  border: solid white;
+width:40px;
+height: 40px;
+background-color: rgb(250, 246, 246);
+border-radius: 20px;
+}
+
+@media(max-width: 767px){
+  .Contact{
+    margin-left: 60%;
+  }
+
+}
+
+@media(max-width: 480px){
+  .Contact{
+    position: absolute;
+    left: 60px;
+  
+
+  }
 }

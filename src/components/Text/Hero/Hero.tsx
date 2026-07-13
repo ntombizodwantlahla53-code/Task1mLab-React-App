@@ -20,11 +20,15 @@ export const Hero = () => {
       <Text>
       <button className={styles.viewMenu}>View Menu</button></Text>
       <div className={styles.iconRow}>
-       <img src={icon1}></img>
-       <img src={icon2}></img>
-       <img src={icon3}></img>
+        <div className={styles.iconn}>
+       <img src={icon1}></img></div>
+       <div className={styles.iconn}>
+       <img src={icon2}></img></div>
+       <div className={styles.iconn}>
+       <img src={icon3}></img></div>
+       <div className={styles.iconn}>
        <img src={icon4}></img>
-
+</div>
       </div>
             
         

@@ -2,7 +2,7 @@ import { Text } from '../Text'
 import styles from './Navbar.module.css'
 import { ContentContainer } from '../ContentContainer'
 import icon1 from '../../../assets/icons8-coffee-50-2.png'
-
+import { FiCoffee } from "react-icons/fi";
 
 
 
@@ -15,7 +15,7 @@ export const Navbar =() => {
         
             
             <div className={styles.heading}>
-          <Text variant="h2">Flavored   <img src={icon1}/> </Text>
+          <Text variant="h2">Flavored   <FiCoffee/> </Text>
           <Text variant="p">Waking up to something Special
             
         </Text>

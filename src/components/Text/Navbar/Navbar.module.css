@@ -41,3 +41,34 @@ display: flex;
   color: white;
   height: 40px;
 }
+@media(max-width:768px){
+    .nav{
+     
+    }
+    .content{
+
+        width:100%;
+        flex-direction: column;
+    }
+    .links{
+    }
+}
+
+@media(max-width:480px){
+    nav{
+        width: 100%;
+       
+     
+    }
+    .content{
+
+        width:100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .links{
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
