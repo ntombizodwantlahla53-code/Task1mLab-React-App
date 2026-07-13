@@ -1,5 +1,4 @@
 import { Text } from '../Text'
-import { ContentContainer } from '../ContentContainer'
 import images from './../../../assets/Americano.jpg'
 import {useState} from 'react'
 import  { ItemcardTwo } from '../ItemcardTwo/ItemcardTwo'
@@ -8,16 +7,18 @@ import { FaRegHeart } from "react-icons/fa";
 import latte from "../../../assets/Latte.jpg";
 import { SiApple } from "react-icons/si";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { IoIosArrowBack } from "react-icons/io";
+
 
 export const Cardthree = () => {
 const [zodwa] = useState([
   { id: 1, name: 'Americano', price:2.50, image: images, 
     description: '100% Natural Arabica or Robusta, 30ml cup', imgClass:'cardImg'},
-  
+ 
 ])
 
    return (
-     <ContentContainer className={styles.content}>
+     <div className={styles.content}>
          <div className={styles.item}>
          {
            zodwa && zodwa.length >0 && zodwa.map(product =>{
@@ -35,7 +36,9 @@ const [zodwa] = useState([
      }
      
     <div className={styles.card23}>
-
+<div className={styles.iconR}>
+        <IoIosArrowBack className={styles.icon} />
+      </div>
       <img src={latte} alt="Latte Grand" className={styles.image}/>
       <h2 className={styles.title2}>Latte Grand</h2>
       <p className={styles.description}>
@@ -50,7 +53,7 @@ const [zodwa] = useState([
 
       <div className={styles.priceSection}>
           
-          <h3 className={styles.price}>$3.50 </h3>
+          <h3 className={styles.price2}>$3.50 </h3>
             <button className={styles.heartButton}>
           <FaRegHeart /></button>
         <button className={styles.cartButton}>
@@ -95,6 +98,7 @@ const [zodwa] = useState([
         </div>
         <div className={styles.line}>
         </div>
+        <div className={styles.Uline}>
         <Text variant="p">
           Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum has been the
@@ -102,6 +106,7 @@ const [zodwa] = useState([
           when an unknown printer took a galley of type and
           scrambled it to<br/> make a type specimen book.
         </Text>
-     </ContentContainer>
+        </div>
+     </div>
    )
  }

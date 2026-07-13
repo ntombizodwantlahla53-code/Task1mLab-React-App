@@ -1,7 +1,5 @@
 import { Text } from '../Text'
 import styles from './Navbar.module.css'
-import { ContentContainer } from '../ContentContainer'
-import icon1 from '../../../assets/icons8-coffee-50-2.png'
 import { FiCoffee } from "react-icons/fi";
 
 
@@ -10,8 +8,8 @@ export const Navbar =() => {
 
   return (
     <nav>
-        {/*<div className={styles.content}>*/}
-       <ContentContainer className={styles.content}>
+        <div className={styles.content}>
+       
         
             
             <div className={styles.heading}>
@@ -31,9 +29,9 @@ export const Navbar =() => {
                  
              </div>
              
-       </ContentContainer>
+       
             
-             {/*</div>*/}
+             </div>
 
     </nav>
   )

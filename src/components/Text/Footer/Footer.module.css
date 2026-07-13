@@ -4,21 +4,27 @@ display: grid;
     align-items: center;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
 }
 .flav{
     margin-top: 50px;
 text-align: start;
-color: white;
+color: rgb(255, 254, 254);
 
 
 }
 
 .left span{
-    
   font-size: 30px;
   line-height: 50px;
   font-weight: bold;
 }
+.done{
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
@@ -30,3 +36,8 @@ color: white;
     color: rgb(66, 7, 7);
 }
 
+@media(max-width: 480px){
+  .infoFooter{
+   margin-left: 20px;
+  }
+}

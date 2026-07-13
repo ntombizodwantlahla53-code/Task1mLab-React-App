@@ -1,6 +1,5 @@
 import { Text } from '../Text'
 import styles from './Hero.module.css'
-import { ContentContainer } from '../ContentContainer'
 import cofe from '../../../assets/heroo.jpg'
 import icon1 from '../../../assets/icons8-coffee-50-2.png'
 import icon2 from '../../../assets/icons8-coffee-50-3.png'
@@ -10,7 +9,7 @@ import icon4 from '../../../assets/icons8-coffee-50.png'
 export const Hero = () => {
   return (
     <section className={styles.hero}>
-      <ContentContainer className={styles.content}>
+      <div className={styles.content}>
         <div className={styles.info}>
           <div className={styles.left}>
           
@@ -40,7 +39,7 @@ export const Hero = () => {
           </div>
           
         
-       </ContentContainer>
+       </div>
       </section>
 
   )

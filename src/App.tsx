@@ -8,26 +8,30 @@ import{ Cardthree} from './components/Text/Cardthree/Cardthree'
 import { Footer } from './components/Text/Footer/Footer'
 import  {ZodwaContainer}  from './components/Text/ZodwaContainer/ZodwaContainer'
 
+
 function App() {
   //const [count, setCount] = useState(0)
   
 
   return (
-    <div >
-     
+   <div>
       <ContentContainer>
+        <section>
       <Navbar/>
       <Hero />
       <ZodwaContainer />
       <Card2/>
       <Cardthree/>
       <Footer/>
+      </section>
 </ContentContainer>
-      {/* <Text variant= 'h1'></Text> */}
+
+ 
+      {/* { <Text variant= 'h1'></Text> } */}
       <Text variant= 'h2'> </Text>
       <Text variant= 'p'> </Text>
       <Text variant= 'span'> </Text>
-      </div>
+     </div> 
      
   )
 }

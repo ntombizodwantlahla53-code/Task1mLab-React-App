@@ -14,9 +14,11 @@ export const ContentContainer: React.FC<Props>=  ({children, className}) =>{
     padding: 10, 
     margin: '0 auto', 
     background: 'blur(10px)',
-    borderRadius: 15, 
+    borderRadius: 24, 
     fontFamily: 'Arial',
-    backgroundColor: 'green' }}>
+    backgroundColor: 'rgba(242, 239, 233, 0.35)',
+    backdropFilter: 'blur(20px)',overflow: 'hidden',
+  }}>
       {children}</div>
     
   )

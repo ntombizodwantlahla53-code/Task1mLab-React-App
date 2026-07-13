@@ -10,6 +10,7 @@ display: flex;
     margin: auto;
     align-items: center;
     justify-content: space-between;
+   
 }
     
 .links {
@@ -42,15 +43,10 @@ display: flex;
   height: 40px;
 }
 @media(max-width:768px){
-    .nav{
-     
-    }
     .content{
 
         width:100%;
         flex-direction: column;
-    }
-    .links{
     }
 }
 
@@ -58,7 +54,6 @@ display: flex;
     nav{
         width: 100%;
        
-     
     }
     .content{
 

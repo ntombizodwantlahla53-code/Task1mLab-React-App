@@ -12,6 +12,8 @@ import icon2 from '../../../assets/icons8-coffee-50-3.png'
 import icon3 from '../../../assets/icons8-coffee-50-4.png'
 import icon4 from '../../../assets/icons8-coffee-50.png'
 import card2pic from'../../../assets/card2pic.jpeg'
+import imagg from './../../../assets/cappucino.jpg'
+import { FaRegHeart } from "react-icons/fa";
 
 export type ItemcardTwoProps = {
     name: string;
@@ -54,22 +56,26 @@ export const ItemcardTwo: React.FC<ItemcardTwoProps> = ({name, description, imag
       
       <div className={styles.iconRow}>
         <FiShoppingCart className={styles.icon} />
+        <FaRegHeart className={styles.icon} />
+        
       </div>
 
-      <span className={styles.price}>{price}</span>
+      <span className={styles.price}>${price}</span>
     </div>
 
   
       <div className={styles.card}>
-      <img className={styles[imgClass]} src={image} alt ={'image: ${description}'}/>
-      <span className={styles.name}>{name}</span>
-      <span className={styles.description}>{description}</span>
+      <img className={styles.image} src={imagg} alt="coffe2"/>
+      <span className={styles.name}>Cappuccino</span>
+      <span className={styles.description}>Coffee 50%, milk 50%, 280ml<br/></span>
       
       <div className={styles.iconRow}>
         <FiShoppingCart className={styles.icon} />
+        <FaRegHeart className={styles.icon} />
+
       </div>
 
-      <span className={styles.price}>{price}</span>
+      <span className={styles.price}>${price}</span>
     </div>
 </div>
 

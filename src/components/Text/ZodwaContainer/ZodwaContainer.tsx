@@ -1,5 +1,4 @@
 import { Text } from '../Text'
-import { ContentContainer } from '../ContentContainer'
 import images from './../../../assets/Americano.jpg'
 import image from './../../../assets/cappucino.jpg'
 import {useState} from 'react'
@@ -15,7 +14,7 @@ const [zodwa] = useState([
 ])
 
    return (
-     <ContentContainer className={styles.content}>
+     <div className={styles.content}>
          <div className={styles.item}>
          {
            zodwa && zodwa.length >0 && zodwa.map(product =>{
@@ -43,6 +42,6 @@ const [zodwa] = useState([
       <button className={styles.learnMore}>Learn More</button></Text>
      </div>
      </div>
-     </ContentContainer>
+     </div>
    )
  }
