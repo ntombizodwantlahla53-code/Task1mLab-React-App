@@ -1,6 +1,5 @@
 
 import { Text } from '../Text'
-import Fpic from './../../../assets/finalpic.jpg'
 import styles from './Footer.module.css'
 import { LuCoffee } from "react-icons/lu";
 
