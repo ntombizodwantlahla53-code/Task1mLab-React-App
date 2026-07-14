@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../ZodwaContainer/ZodwaContainer.module.css'
-import { Text } from '../Text'
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 
