@@ -152,7 +152,7 @@ height: 30px;
   width: 350px;
   height: 720px;
   border-radius: 35px;
-  box-shadow: black;
+  box-shadow: rgb(27, 1, 1);
 background-color: rgb(234, 229, 235);
   border-radius: 8px;
   justify-content: flex-start;

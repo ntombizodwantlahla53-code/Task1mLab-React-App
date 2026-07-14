@@ -25,7 +25,7 @@ display: flex;
     cursor: pointer;
 }
 .link:hover {
-    color:blue;
+    color:rgb(255, 94, 0);
 
 
 }
@@ -41,6 +41,10 @@ display: flex;
   background: rgb(66, 7, 7);
   color: white;
   height: 40px;
+}
+.sNow:hover{
+    color:orange;
+
 }
 @media(max-width:768px){
     .content{
