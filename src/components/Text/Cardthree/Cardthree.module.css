@@ -1,7 +1,4 @@
 .ntombi2{
-/* border-radius:20px; */
-    /* width: 360px; */
-    /* height:720px; */
     color: rgb(66, 7, 7);
  text-align: center;
   justify-content: center;
@@ -111,6 +108,7 @@ border: 3px solid rgb(214, 209, 209);
 
 
 .infoText {
+  justify-content: start;
   margin-top: 100px;
   text-align: start;
   color:rgb(66, 7, 7);
@@ -153,7 +151,7 @@ height: 30px;
   height: 720px;
   border-radius: 35px;
   box-shadow: rgb(27, 1, 1);
-background-color: rgb(234, 229, 235);
+background-color:rgb(234, 229, 235);
   border-radius: 8px;
   justify-content: flex-start;
   text-align: center;
@@ -309,8 +307,9 @@ font-size: 15px;
 }
 .storeButtons{
  font-size: 30px;
- display: flex;
+display: flex;
  gap:10px;
+ 
 }
 .iconn{
   border: solid rgb(250, 246, 246);
@@ -318,6 +317,15 @@ width:50px;
 height: 50px;
 background-color: rgb(250, 246, 246);
 border-radius: 20px;
+}
+.iconn1{
+  text-align: center;
+  justify-content: center;
+  border-radius:20px;
+background-color:rgb(250, 246, 246);
+width: 40px;
+height: 40px;
+
 }
 .Uline{
  color:rgb(66, 7, 7);

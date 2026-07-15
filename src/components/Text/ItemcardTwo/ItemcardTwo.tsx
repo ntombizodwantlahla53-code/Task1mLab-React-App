@@ -26,7 +26,7 @@ export type ItemcardTwoProps = {
 export const ItemcardTwo: React.FC<ItemcardTwoProps> = ({name, description, image, price, imgClass}) => {
   return (
     
-<div className={styles['ntombi2']}>
+<div className={styles.ntombi2}>
       <div className={styles.menuCard}> 
 <div className={styles.iconR}>
         <IoIosArrowBack className={styles.icon} />

@@ -79,9 +79,9 @@ const [zodwa] = useState([
           scrambled it to make a type specimen book.
         </Text>
         <div className={styles.storeButtons}>
-          <div className={styles.iconn}>
+          <div className={styles.iconn1}>
             <SiApple /></div>
-          <div className={styles.iconn}>
+          <div className={styles.iconn1}>
             <IoLogoGooglePlaystore />
 
         </div>
