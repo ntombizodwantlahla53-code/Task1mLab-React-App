@@ -1,7 +1,3 @@
-.content{
-
-
-}
 .cards2{
   padding: 0px; 
   text-align:start;
@@ -58,4 +54,11 @@ position: relative
   border-radius: 120px;
 
 }
+@media(width<= 658px) and (width>=480px){
+  .right img{
+    height:180px;
+    width:180px;
+  }
+}
+
 

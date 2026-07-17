@@ -36,7 +36,7 @@ color: rgb(255, 254, 254);
     color: rgb(66, 7, 7);
 }
 
-@media(max-width: 480px){
+@media(max-width<=658)and(width>=480px){
   .infoFooter{
    margin-left: 20px;
   }

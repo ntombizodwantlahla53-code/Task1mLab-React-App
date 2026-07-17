@@ -88,13 +88,15 @@ const [zodwa] = useState([
 
         </div>
         </div>
-     </div>
+        </div>
+<div className={styles.ContactNow}>
      <h2 className={styles.lastline}>LET'S TALK</h2>
      <div className={styles.lasttext}>
 <Text variant="h2">
           Want to Reserve a Table? 
         </Text>
-        <button className={styles.Contact}>Contact Now</button>
+        <div className={styles.right}>
+        <button className={styles.Contact}>Contact Now</button></div>
         </div>
         <div className={styles.line}>
         </div>
@@ -106,7 +108,11 @@ const [zodwa] = useState([
           when an unknown printer took a galley of type and
           scrambled it to<br/> make a type specimen book.
         </Text>
-        </div>
+      
+</div>
+     </div>
+     
+        
      </div>
    )
  }

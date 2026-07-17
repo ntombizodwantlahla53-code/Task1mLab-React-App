@@ -9,9 +9,7 @@ export const Navbar =() => {
   return (
     <nav>
         <div className={styles.content}>
-       
-        
-            
+
             <div className={styles.heading}>
           <Text variant="h2">Flavored   <FiCoffee/> </Text>
           <Text variant="p">Waking up to something Special

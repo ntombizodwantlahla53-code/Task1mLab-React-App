@@ -14,7 +14,7 @@ export type ItemcardProps = {
 export const Itemcard: React.FC<ItemcardProps> = ({name, description, image, price, imgClass}) => {
   return (
     
-    <div className={styles['ntombi']}>
+    <div className={styles.ntombi}>
       
       <img className={styles[imgClass]} src={image} alt ={'image: ${description}'}/>
       <div className={styles.textntombi}>
